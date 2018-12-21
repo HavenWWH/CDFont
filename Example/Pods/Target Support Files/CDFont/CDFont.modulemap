@@ -1,0 +1,6 @@
+framework module CDFont {
+  umbrella header "CDFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

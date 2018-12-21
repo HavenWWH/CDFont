@@ -1,0 +1,16 @@
+PODS:
+  - CDFont (0.0.1)
+
+DEPENDENCIES:
+  - CDFont (from `../`)
+
+EXTERNAL SOURCES:
+  CDFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CDFont: 8da84ff6f1cdc3f73e643e7c5d6371a319be13db
+
+PODFILE CHECKSUM: c0d5c7ac3ebb8a060412d10d12a7928f7b364cb7
+
+COCOAPODS: 1.6.0.beta.2

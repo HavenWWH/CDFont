@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CF729DAEEEFC7E09BF3299B1F0A338A /* CDFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF23FA8EA07B4ABEF98EB5E9FF18FA9E /* CDFont-dummy.m */; };
+		237806E22405AC8516A6422D747B9FD9 /* Pods-CDFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3096CB20B9F1ED2820341E3B32372229 /* Pods-CDFont_Example-dummy.m */; };
+		3F7394B148F31039D8D663483C2DE2F4 /* UILabel+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 04761840C5CD437E27071823236D8B0D /* UILabel+Font.m */; };
+		46460EADB10A5541AB1A4B6B7BBF4A6C /* UIButton+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ACF50DCE432D7245BC42B2BFBDB3AE /* UIButton+Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46631311829D816E242C49A65DB10E4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		48C3044E126E095E04820EB94B581D4A /* CDDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF4F69E800A47A1016D5CC74377D978 /* CDDeviceUtils.m */; };
+		52D08C830EE2A13CA608DBF2C598DC6E /* CDFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 984801061723B7F4D276E3087094814F /* CDFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADF7DF5A82D21E6466FE9C5B661E819 /* CDDeviceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3D00B10B420A1250BE1AEFDF69FC19 /* CDDeviceUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B1F11719868D2B4825D6C333B0F0B61 /* UITextField+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 162115ED737A568372395141D833CB19 /* UITextField+Font.m */; };
+		655F96197F7091F82381AFC46272E925 /* Pods-CDFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EDAB505C3145C54E7C27281B6D5BAE /* Pods-CDFont_Tests-dummy.m */; };
+		76DD87479C45F9606B4C0A4EFF4E24AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		787B5C7D223D3EEC825FE5AF1D3C54FA /* Pods-CDFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 852C28E15051BCDE43AD3A79125AEA09 /* Pods-CDFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		876CC685A3103E17E948E2EF9507D076 /* CDFontUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA8C24BB490F52E4CE7F3864DE58BAA /* CDFontUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E62EDD582073A7275AF64B4EC6293A1 /* Pods-CDFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0886ABB09E9E97DED70466724A0397 /* Pods-CDFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932D6F27AF9D1AC0C6A984F14F8F6DF2 /* UIButton+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC45B29F315AF49ABB2AFB295B779E0 /* UIButton+Font.m */; };
+		D0024C0F24E0CF8C0BA51A0095EE6897 /* CDFontUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B373B9B14FF552F72EF5F1F915BB69 /* CDFontUtils.m */; };
+		D1DE1E2A02E29B594B29605CF5E3E2C9 /* UILabel+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5BD0C79FD772B1C490205C408B1CD6 /* UILabel+Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF80F6B365D21B01543AB0A297F4320C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F6251A24DD0D832820326AA4D3316D04 /* UITextField+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = E6CDAF29338FAD12DEBD0C03A0B48D6B /* UITextField+Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EAC49AEAB0D73D61842813DC0D46F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD516338CDA0E4E17A783716FB5BFFD6;
+			remoteInfo = CDFont;
+		};
+		DCDD29E0B76BCBB9171A52872EAEDD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C32F87DBC3E97CCE9FEF3A9C6B3BEA28;
+			remoteInfo = "Pods-CDFont_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A215A4349EBADEA7FB5A4A084B2B16 /* CDFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDFont-prefix.pch"; sourceTree = "<group>"; };
+		04761840C5CD437E27071823236D8B0D /* UILabel+Font.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Font.m"; path = "CDFont/UILabel+Font.m"; sourceTree = "<group>"; };
+		0A1A8B8D2A83EFA3AE281A8B5D5DAECA /* CDFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDFont.xcconfig; sourceTree = "<group>"; };
+		12ACF50DCE432D7245BC42B2BFBDB3AE /* UIButton+Font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Font.h"; path = "CDFont/UIButton+Font.h"; sourceTree = "<group>"; };
+		162115ED737A568372395141D833CB19 /* UITextField+Font.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Font.m"; path = "CDFont/UITextField+Font.m"; sourceTree = "<group>"; };
+		1D15D689CB62F6D62F986F138E33558B /* CDFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDFont-Info.plist"; sourceTree = "<group>"; };
+		24B373B9B14FF552F72EF5F1F915BB69 /* CDFontUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDFontUtils.m; path = CDFont/CDFontUtils.m; sourceTree = "<group>"; };
+		3096CB20B9F1ED2820341E3B32372229 /* Pods-CDFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDFont_Example-dummy.m"; sourceTree = "<group>"; };
+		4492F5EB4D590B77CB90F0DBB5F17BD8 /* Pods-CDFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		486C4C3270CFB8FDC6C62B2513CF1D26 /* Pods-CDFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDFont_Tests.modulemap"; sourceTree = "<group>"; };
+		4E052C25AE243CCA84DC6FEBD9B18B60 /* Pods-CDFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CDFont_Example.modulemap"; sourceTree = "<group>"; };
+		57E1175322EE36B3896B7BCBFB633EC5 /* Pods-CDFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F3D00B10B420A1250BE1AEFDF69FC19 /* CDDeviceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDDeviceUtils.h; path = CDFont/CDDeviceUtils.h; sourceTree = "<group>"; };
+		695C8E695EA4E54D74E489AA394DD790 /* Pods-CDFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Tests-Info.plist"; sourceTree = "<group>"; };
+		73A9830E0091FF557CB9AF1E9695354A /* Pods-CDFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		752F8457D2ACC30CF150EA620E9BE7AA /* Pods_CDFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDFont_Tests.framework; path = "Pods-CDFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF4F69E800A47A1016D5CC74377D978 /* CDDeviceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDDeviceUtils.m; path = CDFont/CDDeviceUtils.m; sourceTree = "<group>"; };
+		7DC45B29F315AF49ABB2AFB295B779E0 /* UIButton+Font.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Font.m"; path = "CDFont/UIButton+Font.m"; sourceTree = "<group>"; };
+		81473A46983BC5DE6DFDADD10B4C4A1B /* Pods-CDFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		852C28E15051BCDE43AD3A79125AEA09 /* Pods-CDFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C5BD0C79FD772B1C490205C408B1CD6 /* UILabel+Font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Font.h"; path = "CDFont/UILabel+Font.h"; sourceTree = "<group>"; };
+		93221C692D71559D53783531375B1903 /* CDFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDFont.framework; path = CDFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EDAB505C3145C54E7C27281B6D5BAE /* Pods-CDFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		984801061723B7F4D276E3087094814F /* CDFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDFont-umbrella.h"; sourceTree = "<group>"; };
+		9DE7F95EAC8FE25C7137939E90DCA64C /* Pods-CDFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9FB2F200EF4A2FE20C784C61CB81700D /* Pods-CDFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A5DC6A99A7372C5F3FE5FC0F5C3B3B23 /* Pods_CDFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDFont_Example.framework; path = "Pods-CDFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A883CBC48B7C7C7D150FC1FFC4FFAE42 /* CDFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CDFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B49AE22669BD9D51F8CB61CCBA078EB6 /* Pods-CDFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF23FA8EA07B4ABEF98EB5E9FF18FA9E /* CDFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDFont-dummy.m"; sourceTree = "<group>"; };
+		CE24053E04D77913315278084C7DC0E1 /* CDFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDFont.modulemap; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6F92B3004F8A946114507964E3EAA5A /* Pods-CDFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D723E04A263F7CB19006181B55271BAA /* Pods-CDFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DEA8C24BB490F52E4CE7F3864DE58BAA /* CDFontUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDFontUtils.h; path = CDFont/CDFontUtils.h; sourceTree = "<group>"; };
+		DF5BB242ABE53F8B64C22BC115D03BAD /* Pods-CDFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Example-Info.plist"; sourceTree = "<group>"; };
+		E4870939077AF705CF1A9414CDC7A0BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E6CDAF29338FAD12DEBD0C03A0B48D6B /* UITextField+Font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Font.h"; path = "CDFont/UITextField+Font.h"; sourceTree = "<group>"; };
+		EC59B022AFFEB89ED07E05150A588845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE0886ABB09E9E97DED70466724A0397 /* Pods-CDFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF28F5B5FA68848A64E8FA0AB1BA398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DD87479C45F9606B4C0A4EFF4E24AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2C1C318DE614E3152E06E0164CF1EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF80F6B365D21B01543AB0A297F4320C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28D1FBDF1C7FA71A53F43F6F290FFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46631311829D816E242C49A65DB10E4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0897C79EA1EDC250E1E2128F5798BBBA /* CDFont */ = {
+			isa = PBXGroup;
+			children = (
+				5F3D00B10B420A1250BE1AEFDF69FC19 /* CDDeviceUtils.h */,
+				7BF4F69E800A47A1016D5CC74377D978 /* CDDeviceUtils.m */,
+				DEA8C24BB490F52E4CE7F3864DE58BAA /* CDFontUtils.h */,
+				24B373B9B14FF552F72EF5F1F915BB69 /* CDFontUtils.m */,
+				12ACF50DCE432D7245BC42B2BFBDB3AE /* UIButton+Font.h */,
+				7DC45B29F315AF49ABB2AFB295B779E0 /* UIButton+Font.m */,
+				8C5BD0C79FD772B1C490205C408B1CD6 /* UILabel+Font.h */,
+				04761840C5CD437E27071823236D8B0D /* UILabel+Font.m */,
+				E6CDAF29338FAD12DEBD0C03A0B48D6B /* UITextField+Font.h */,
+				162115ED737A568372395141D833CB19 /* UITextField+Font.m */,
+				95993991E81A9DB21C1DDC033A0104C3 /* Pod */,
+				210242CD720E9F8A662D24690C3B3F5C /* Support Files */,
+			);
+			name = CDFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1DABAED74FB7491FD6DF193B849721DB /* Pods-CDFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E052C25AE243CCA84DC6FEBD9B18B60 /* Pods-CDFont_Example.modulemap */,
+				57E1175322EE36B3896B7BCBFB633EC5 /* Pods-CDFont_Example-acknowledgements.markdown */,
+				D6F92B3004F8A946114507964E3EAA5A /* Pods-CDFont_Example-acknowledgements.plist */,
+				3096CB20B9F1ED2820341E3B32372229 /* Pods-CDFont_Example-dummy.m */,
+				73A9830E0091FF557CB9AF1E9695354A /* Pods-CDFont_Example-frameworks.sh */,
+				DF5BB242ABE53F8B64C22BC115D03BAD /* Pods-CDFont_Example-Info.plist */,
+				852C28E15051BCDE43AD3A79125AEA09 /* Pods-CDFont_Example-umbrella.h */,
+				D723E04A263F7CB19006181B55271BAA /* Pods-CDFont_Example.debug.xcconfig */,
+				9FB2F200EF4A2FE20C784C61CB81700D /* Pods-CDFont_Example.release.xcconfig */,
+			);
+			name = "Pods-CDFont_Example";
+			path = "Target Support Files/Pods-CDFont_Example";
+			sourceTree = "<group>";
+		};
+		210242CD720E9F8A662D24690C3B3F5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE24053E04D77913315278084C7DC0E1 /* CDFont.modulemap */,
+				0A1A8B8D2A83EFA3AE281A8B5D5DAECA /* CDFont.xcconfig */,
+				BF23FA8EA07B4ABEF98EB5E9FF18FA9E /* CDFont-dummy.m */,
+				1D15D689CB62F6D62F986F138E33558B /* CDFont-Info.plist */,
+				02A215A4349EBADEA7FB5A4A084B2B16 /* CDFont-prefix.pch */,
+				984801061723B7F4D276E3087094814F /* CDFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CDFont";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		587C01C8CDBE4819EF567B4D563D59E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93221C692D71559D53783531375B1903 /* CDFont.framework */,
+				A5DC6A99A7372C5F3FE5FC0F5C3B3B23 /* Pods_CDFont_Example.framework */,
+				752F8457D2ACC30CF150EA620E9BE7AA /* Pods_CDFont_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				BDC3943A3DD6488CE723CD968E32AE3C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				587C01C8CDBE4819EF567B4D563D59E4 /* Products */,
+				CEB11E3940489B0A53F89C9E35A9957F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		95993991E81A9DB21C1DDC033A0104C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A883CBC48B7C7C7D150FC1FFC4FFAE42 /* CDFont.podspec */,
+				EC59B022AFFEB89ED07E05150A588845 /* LICENSE */,
+				E4870939077AF705CF1A9414CDC7A0BB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AAA9B65C39587CB788B189507718EB5C /* Pods-CDFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				486C4C3270CFB8FDC6C62B2513CF1D26 /* Pods-CDFont_Tests.modulemap */,
+				4492F5EB4D590B77CB90F0DBB5F17BD8 /* Pods-CDFont_Tests-acknowledgements.markdown */,
+				81473A46983BC5DE6DFDADD10B4C4A1B /* Pods-CDFont_Tests-acknowledgements.plist */,
+				93EDAB505C3145C54E7C27281B6D5BAE /* Pods-CDFont_Tests-dummy.m */,
+				695C8E695EA4E54D74E489AA394DD790 /* Pods-CDFont_Tests-Info.plist */,
+				EE0886ABB09E9E97DED70466724A0397 /* Pods-CDFont_Tests-umbrella.h */,
+				B49AE22669BD9D51F8CB61CCBA078EB6 /* Pods-CDFont_Tests.debug.xcconfig */,
+				9DE7F95EAC8FE25C7137939E90DCA64C /* Pods-CDFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-CDFont_Tests";
+			path = "Target Support Files/Pods-CDFont_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC3943A3DD6488CE723CD968E32AE3C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0897C79EA1EDC250E1E2128F5798BBBA /* CDFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CEB11E3940489B0A53F89C9E35A9957F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DABAED74FB7491FD6DF193B849721DB /* Pods-CDFont_Example */,
+				AAA9B65C39587CB788B189507718EB5C /* Pods-CDFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22904C1A66A8D8F525F0EDD16B0C282C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787B5C7D223D3EEC825FE5AF1D3C54FA /* Pods-CDFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3912498DFFAED1F039CD8D96597A0844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E62EDD582073A7275AF64B4EC6293A1 /* Pods-CDFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1686610FCA1AE8B6F3B252408950B3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ADF7DF5A82D21E6466FE9C5B661E819 /* CDDeviceUtils.h in Headers */,
+				52D08C830EE2A13CA608DBF2C598DC6E /* CDFont-umbrella.h in Headers */,
+				876CC685A3103E17E948E2EF9507D076 /* CDFontUtils.h in Headers */,
+				46460EADB10A5541AB1A4B6B7BBF4A6C /* UIButton+Font.h in Headers */,
+				D1DE1E2A02E29B594B29605CF5E3E2C9 /* UILabel+Font.h in Headers */,
+				F6251A24DD0D832820326AA4D3316D04 /* UITextField+Font.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59FE13FBDA786DC4C34A2CBB3DD3682C /* Pods-CDFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82F0A7BFE44F39C50F1D3D8AD931C2D /* Build configuration list for PBXNativeTarget "Pods-CDFont_Tests" */;
+			buildPhases = (
+				3912498DFFAED1F039CD8D96597A0844 /* Headers */,
+				3C0C76B55793F75D732F8FB15BB21E1B /* Sources */,
+				BCF28F5B5FA68848A64E8FA0AB1BA398 /* Frameworks */,
+				994A04D4DF138FD4A4F7A8660F1DFEB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66930B1EA482E55C59EDDAAE4ED08926 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDFont_Tests";
+			productName = "Pods-CDFont_Tests";
+			productReference = 752F8457D2ACC30CF150EA620E9BE7AA /* Pods_CDFont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C32F87DBC3E97CCE9FEF3A9C6B3BEA28 /* Pods-CDFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B506D0A4289EF228DB4AB4538FD302F5 /* Build configuration list for PBXNativeTarget "Pods-CDFont_Example" */;
+			buildPhases = (
+				22904C1A66A8D8F525F0EDD16B0C282C /* Headers */,
+				0CD565B049AFC85DC35966FFA90494B6 /* Sources */,
+				CD2C1C318DE614E3152E06E0164CF1EF /* Frameworks */,
+				29078EBB17A3915D14A1532A5C2065E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70392C3BA85F63B66F24A51C57F0E1B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CDFont_Example";
+			productName = "Pods-CDFont_Example";
+			productReference = A5DC6A99A7372C5F3FE5FC0F5C3B3B23 /* Pods_CDFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD516338CDA0E4E17A783716FB5BFFD6 /* CDFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2D1BAE0FCE27F94E615062E16F96B59 /* Build configuration list for PBXNativeTarget "CDFont" */;
+			buildPhases = (
+				F1686610FCA1AE8B6F3B252408950B3D /* Headers */,
+				C63B226627F5A42CD9AA088E23309090 /* Sources */,
+				D28D1FBDF1C7FA71A53F43F6F290FFDF /* Frameworks */,
+				06D5B2D2693701B47AE46815859A8446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDFont;
+			productName = CDFont;
+			productReference = 93221C692D71559D53783531375B1903 /* CDFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 587C01C8CDBE4819EF567B4D563D59E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD516338CDA0E4E17A783716FB5BFFD6 /* CDFont */,
+				C32F87DBC3E97CCE9FEF3A9C6B3BEA28 /* Pods-CDFont_Example */,
+				59FE13FBDA786DC4C34A2CBB3DD3682C /* Pods-CDFont_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D5B2D2693701B47AE46815859A8446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29078EBB17A3915D14A1532A5C2065E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994A04D4DF138FD4A4F7A8660F1DFEB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD565B049AFC85DC35966FFA90494B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237806E22405AC8516A6422D747B9FD9 /* Pods-CDFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0C76B55793F75D732F8FB15BB21E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655F96197F7091F82381AFC46272E925 /* Pods-CDFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63B226627F5A42CD9AA088E23309090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C3044E126E095E04820EB94B581D4A /* CDDeviceUtils.m in Sources */,
+				1CF729DAEEEFC7E09BF3299B1F0A338A /* CDFont-dummy.m in Sources */,
+				D0024C0F24E0CF8C0BA51A0095EE6897 /* CDFontUtils.m in Sources */,
+				932D6F27AF9D1AC0C6A984F14F8F6DF2 /* UIButton+Font.m in Sources */,
+				3F7394B148F31039D8D663483C2DE2F4 /* UILabel+Font.m in Sources */,
+				5B1F11719868D2B4825D6C333B0F0B61 /* UITextField+Font.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66930B1EA482E55C59EDDAAE4ED08926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CDFont_Example";
+			target = C32F87DBC3E97CCE9FEF3A9C6B3BEA28 /* Pods-CDFont_Example */;
+			targetProxy = DCDD29E0B76BCBB9171A52872EAEDD22 /* PBXContainerItemProxy */;
+		};
+		70392C3BA85F63B66F24A51C57F0E1B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDFont;
+			target = DD516338CDA0E4E17A783716FB5BFFD6 /* CDFont */;
+			targetProxy = 6EAC49AEAB0D73D61842813DC0D46F58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3344996FE10F6D85C171F2260FA315F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D723E04A263F7CB19006181B55271BAA /* Pods-CDFont_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFont_Example/Pods-CDFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFont_Example/Pods-CDFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BB2867AB4809FF533CE684C542EEFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE7F95EAC8FE25C7137939E90DCA64C /* Pods-CDFont_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFont_Tests/Pods-CDFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFont_Tests/Pods-CDFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9586E3574A656A1265524D2876E414E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1A8B8D2A83EFA3AE281A8B5D5DAECA /* CDFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDFont/CDFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDFont/CDFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDFont/CDFont.modulemap";
+				PRODUCT_MODULE_NAME = CDFont;
+				PRODUCT_NAME = CDFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1E39248140B109F0432B370E67580D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB2F200EF4A2FE20C784C61CB81700D /* Pods-CDFont_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFont_Example/Pods-CDFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFont_Example/Pods-CDFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C03105079486077E4387535CDB120325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49AE22669BD9D51F8CB61CCBA078EB6 /* Pods-CDFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CDFont_Tests/Pods-CDFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CDFont_Tests/Pods-CDFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1EDEC29A7A04DB1E0D1DBDA5EF3C88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A1A8B8D2A83EFA3AE281A8B5D5DAECA /* CDFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDFont/CDFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDFont/CDFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDFont/CDFont.modulemap";
+				PRODUCT_MODULE_NAME = CDFont;
+				PRODUCT_NAME = CDFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B506D0A4289EF228DB4AB4538FD302F5 /* Build configuration list for PBXNativeTarget "Pods-CDFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3344996FE10F6D85C171F2260FA315F4 /* Debug */,
+				A1E39248140B109F0432B370E67580D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D1BAE0FCE27F94E615062E16F96B59 /* Build configuration list for PBXNativeTarget "CDFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EDEC29A7A04DB1E0D1DBDA5EF3C88E /* Debug */,
+				9586E3574A656A1265524D2876E414E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82F0A7BFE44F39C50F1D3D8AD931C2D /* Build configuration list for PBXNativeTarget "Pods-CDFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03105079486077E4387535CDB120325 /* Debug */,
+				5BB2867AB4809FF533CE684C542EEFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

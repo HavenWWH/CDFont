@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- 使用方法 
+CDUIFontMake(20);
+CDUIFontBoldMake(20);
 
 ## Installation
 

@@ -1,0 +1,6 @@
+framework module Pods_CDFont_Example {
+  umbrella header "Pods-CDFont_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
