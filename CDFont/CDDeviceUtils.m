@@ -17,12 +17,15 @@
 // 屏幕宽度，跟横竖屏无关
 #define CDDEVICE_WIDTH (CDIS_LANDSCAPE ? [[UIScreen mainScreen] bounds].size.height : [[UIScreen mainScreen] bounds].size.width)
 
+// 屏幕高度，跟横竖屏无关
+#define CDDEVICE_HEIGHT (CDIS_LANDSCAPE ? [[UIScreen mainScreen] bounds].size.width : [[UIScreen mainScreen] bounds].size.height)
+
 @implementation CDDeviceUtils
 
 static NSInteger is35InchScreen = -1;
 + (BOOL)is35InchScreen {
     if (is35InchScreen < 0) {
-        is35InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor35Inch.width && CDDEVICE_WIDTH == self.screenSizeFor35Inch.height) ? 1 : 0;
+        is35InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor35Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor35Inch.height) ? 1 : 0;
     }
     return is35InchScreen > 0;
 }
@@ -30,7 +33,7 @@ static NSInteger is35InchScreen = -1;
 static NSInteger is40InchScreen = -1;
 + (BOOL)is40InchScreen {
     if (is40InchScreen < 0) {
-        is40InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor40Inch.width && CDDEVICE_WIDTH == self.screenSizeFor40Inch.height) ? 1 : 0;
+        is40InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor40Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor40Inch.height) ? 1 : 0;
     }
     return is40InchScreen > 0;
 }
@@ -38,7 +41,7 @@ static NSInteger is40InchScreen = -1;
 static NSInteger is47InchScreen = -1;
 + (BOOL)is47InchScreen {
     if (is47InchScreen < 0) {
-        is47InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor47Inch.width && CDDEVICE_WIDTH == self.screenSizeFor47Inch.height) ? 1 : 0;
+        is47InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor47Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor47Inch.height) ? 1 : 0;
     }
     return is47InchScreen > 0;
 }
@@ -46,7 +49,7 @@ static NSInteger is47InchScreen = -1;
 static NSInteger is55InchScreen = -1;
 + (BOOL)is55InchScreen {
     if (is55InchScreen < 0) {
-        is55InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor55Inch.width && CDDEVICE_WIDTH == self.screenSizeFor55Inch.height) ? 1 : 0;
+        is55InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor55Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor55Inch.height) ? 1 : 0;
     }
     return is55InchScreen > 0;
 }
@@ -56,7 +59,7 @@ static NSInteger is58InchScreen = -1;
     if (is58InchScreen < 0) {
         // Both iPhone XS and iPhone X share the same actual screen sizes, so no need to compare identifiers
         // iPhone XS 和 iPhone X 的物理尺寸是一致的，因此无需比较机器 Identifier
-        is58InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor58Inch.width && CDDEVICE_WIDTH == self.screenSizeFor58Inch.height) ? 1 : 0;
+        is58InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor58Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor58Inch.height) ? 1 : 0;
     }
     return is58InchScreen > 0;
 }
@@ -64,7 +67,7 @@ static NSInteger is58InchScreen = -1;
 static NSInteger is61InchScreen = -1;
 + (BOOL)is61InchScreen {
     if (is61InchScreen < 0) {
-        is61InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor61Inch.width && CDDEVICE_WIDTH == self.screenSizeFor61Inch.height && [[CDDeviceUtils deviceModel] isEqualToString:@"iPhone11,8"]) ? 1 : 0;
+        is61InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor61Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor61Inch.height && [[CDDeviceUtils deviceModel] isEqualToString:@"iPhone11,8"]) ? 1 : 0;
     }
     return is61InchScreen > 0;
 }
@@ -74,7 +77,7 @@ static NSInteger is65InchScreen = -1;
     if (is65InchScreen < 0) {
         // Since iPhone XS Max and iPhone XR share the same resolution, we have to distinguish them using the model identifiers
         // 由于 iPhone XS Max 和 iPhone XR 的屏幕宽高是一致的，我们通过机器 Identifier 加以区别
-        is65InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor65Inch.width && CDDEVICE_WIDTH == self.screenSizeFor65Inch.height && ([[CDDeviceUtils deviceModel] isEqualToString:@"iPhone11,4"] || [[CDDeviceUtils deviceModel] isEqualToString:@"iPhone11,6"])) ? 1 : 0;
+        is65InchScreen = (CDDEVICE_WIDTH == self.screenSizeFor65Inch.width && CDDEVICE_HEIGHT == self.screenSizeFor65Inch.height && ([[CDDeviceUtils deviceModel] isEqualToString:@"iPhone11,4"] || [[CDDeviceUtils deviceModel] isEqualToString:@"iPhone11,6"])) ? 1 : 0;
     }
     return is65InchScreen > 0;
 }
@@ -102,7 +105,7 @@ static NSInteger is65InchScreen = -1;
 }
 
 + (CGSize)screenSizeFor61Inch {
-    return CGSizeMake(375, 896);
+    return CGSizeMake(414, 896);
 }
 
 + (CGSize)screenSizeFor65Inch {

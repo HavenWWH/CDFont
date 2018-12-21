@@ -508,7 +508,7 @@
 				INFOPLIST_FILE = "CDFont/CDFont-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangDaoTest..CDFont-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangDaoTest.CDFont-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = GeneralProfile;
 				WRAPPER_EXTENSION = app;
@@ -527,7 +527,7 @@
 				INFOPLIST_FILE = "CDFont/CDFont-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangDaoTest..CDFont-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChangDaoTest.CDFont-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = GeneralProfile;
 				WRAPPER_EXTENSION = app;

@@ -30,10 +30,12 @@
 
 + (CGSize)screenSizeFor55Inch;
 
+// iPhone X   XS 1125px × 2436px
 + (CGSize)screenSizeFor58Inch;
 
+//iPhone XR  828px × 1792px
 + (CGSize)screenSizeFor61Inch;
-
+//iPhone XS Max  1242px × 2688px
 + (CGSize)screenSizeFor65Inch;
 
 @end
