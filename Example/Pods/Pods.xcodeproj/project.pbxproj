@@ -61,20 +61,20 @@
 		5F3D00B10B420A1250BE1AEFDF69FC19 /* CDDeviceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDDeviceUtils.h; path = CDFont/CDDeviceUtils.h; sourceTree = "<group>"; };
 		695C8E695EA4E54D74E489AA394DD790 /* Pods-CDFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Tests-Info.plist"; sourceTree = "<group>"; };
 		73A9830E0091FF557CB9AF1E9695354A /* Pods-CDFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDFont_Example-frameworks.sh"; sourceTree = "<group>"; };
-		752F8457D2ACC30CF150EA620E9BE7AA /* Pods_CDFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDFont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		752F8457D2ACC30CF150EA620E9BE7AA /* Pods_CDFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDFont_Tests.framework; path = "Pods-CDFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF4F69E800A47A1016D5CC74377D978 /* CDDeviceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDDeviceUtils.m; path = CDFont/CDDeviceUtils.m; sourceTree = "<group>"; };
 		7DC45B29F315AF49ABB2AFB295B779E0 /* UIButton+Font.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Font.m"; path = "CDFont/UIButton+Font.m"; sourceTree = "<group>"; };
 		81473A46983BC5DE6DFDADD10B4C4A1B /* Pods-CDFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		852C28E15051BCDE43AD3A79125AEA09 /* Pods-CDFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDFont_Example-umbrella.h"; sourceTree = "<group>"; };
 		8C5BD0C79FD772B1C490205C408B1CD6 /* UILabel+Font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Font.h"; path = "CDFont/UILabel+Font.h"; sourceTree = "<group>"; };
-		93221C692D71559D53783531375B1903 /* CDFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93221C692D71559D53783531375B1903 /* CDFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDFont.framework; path = CDFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EDAB505C3145C54E7C27281B6D5BAE /* Pods-CDFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDFont_Tests-dummy.m"; sourceTree = "<group>"; };
 		984801061723B7F4D276E3087094814F /* CDFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDFont-umbrella.h"; sourceTree = "<group>"; };
 		9DE7F95EAC8FE25C7137939E90DCA64C /* Pods-CDFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9FB2F200EF4A2FE20C784C61CB81700D /* Pods-CDFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A5DC6A99A7372C5F3FE5FC0F5C3B3B23 /* Pods_CDFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDFont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A883CBC48B7C7C7D150FC1FFC4FFAE42 /* CDFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CDFont.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5DC6A99A7372C5F3FE5FC0F5C3B3B23 /* Pods_CDFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDFont_Example.framework; path = "Pods-CDFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A883CBC48B7C7C7D150FC1FFC4FFAE42 /* CDFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CDFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B49AE22669BD9D51F8CB61CCBA078EB6 /* Pods-CDFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF23FA8EA07B4ABEF98EB5E9FF18FA9E /* CDFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDFont-dummy.m"; sourceTree = "<group>"; };
 		CE24053E04D77913315278084C7DC0E1 /* CDFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDFont.modulemap; sourceTree = "<group>"; };
@@ -83,9 +83,9 @@
 		D723E04A263F7CB19006181B55271BAA /* Pods-CDFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DEA8C24BB490F52E4CE7F3864DE58BAA /* CDFontUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDFontUtils.h; path = CDFont/CDFontUtils.h; sourceTree = "<group>"; };
 		DF5BB242ABE53F8B64C22BC115D03BAD /* Pods-CDFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDFont_Example-Info.plist"; sourceTree = "<group>"; };
-		E4870939077AF705CF1A9414CDC7A0BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4870939077AF705CF1A9414CDC7A0BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E6CDAF29338FAD12DEBD0C03A0B48D6B /* UITextField+Font.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Font.h"; path = "CDFont/UITextField+Font.h"; sourceTree = "<group>"; };
-		EC59B022AFFEB89ED07E05150A588845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EC59B022AFFEB89ED07E05150A588845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		EE0886ABB09E9E97DED70466724A0397 /* Pods-CDFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDFont_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -624,7 +624,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -3,7 +3,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "手机端字体适配",
   "description": "iOS不同机型字体适配，支持现在发布所有苹果机型。",
   "homepage": "https://gitlab.ttsing.com/ios/CDFont",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "git@gitlab.ttsing.com:ios/CDFont.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "source_files": "CDFont/*.{h,m}"
 }

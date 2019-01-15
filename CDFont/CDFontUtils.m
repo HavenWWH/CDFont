@@ -18,7 +18,7 @@ UIFont * PingFangFontMediumSize(CGFloat size) {
     //        return [UIFont fontWithName:@"PingFang-SC-Medium" size:size];
     //    NSString *fontPath = [MYBUNDLE pathForResource:@"DFGB_Y7" ofType:@"ttc"];
     //    return [CDAppUtils customFontPath:fontPath fontSize:size];
-    return [UIFont fontWithName:@"DFPYuanW7-GB" size:size];
+    return [UIFont systemFontOfSize:size];//[UIFont fontWithName:@"DFPYuanW7-GB" size:size];
 }
 
 UIFont * PingFangFontBoldSize(CGFloat size) {
@@ -28,7 +28,7 @@ UIFont * PingFangFontBoldSize(CGFloat size) {
     
     //    NSString *fontPath = [MYBUNDLE pathForResource:@"DFGB_Y9" ofType:@"ttc"];
     //    return [CDAppUtils customFontPath:fontPath fontSize:size];
-    return [UIFont fontWithName:@"DFPYuanW9-GB" size:size];
+    return [UIFont boldSystemFontOfSize:size];//[UIFont fontWithName:@"DFPYuanW9-GB" size:size];
 }
 
 
@@ -69,7 +69,7 @@ UIFont * SystemFont(BOOL isBold,
         
         return isBold ? PingFangFontBoldSize(inch_6_5) :  PingFangFontMediumSize(inch_6_5);
     }
-
+    
     return isBold ? PingFangFontBoldSize(inch_4_7) :  PingFangFontMediumSize(inch_4_7);
 }
 
