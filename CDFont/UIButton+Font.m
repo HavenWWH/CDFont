@@ -27,11 +27,22 @@
             
 //            NSLog(@"打印字体： familyName：%@ fontName: %@", self.titleLabel.font.familyName, self.titleLabel.font.fontName);
 
-            CGFloat fontSize = self.titleLabel.font.pointSize;
+            NSArray *nameArray = @[@"PingFangSC-Semibold",
+                                   @".SFUIDisplay-Bold",
+                                   @".SFUIDisplay-Semibold",
+                                   @".SFUIText-Semibold",
+                                   @".SFUIText-Bold"];
             
-            if ([self.titleLabel.font.fontName isEqualToString:@"PingFangSC-Semibold"]) {
+            CGFloat fontSize = self.titleLabel.font.pointSize;
+        
+            if ([nameArray containsObject:self.titleLabel.font.fontName]) {
 
                 self.titleLabel.font = CDUIFontBoldMake(fontSize);
+            } else if ([self.titleLabel.font.fontName isEqualToString:@".SFUIDisplay-Medium"] ||
+                       [self.titleLabel.font.fontName isEqualToString:@".SFUIText-Medium"]) {
+                
+                self.titleLabel.font = CDUIFontMediumMake(fontSize);
+
             } else {
                 self.titleLabel.font = CDUIFontMake(fontSize);
             }

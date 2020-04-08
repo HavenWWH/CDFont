@@ -12,7 +12,6 @@
 
 @implementation UILabel (Font)
 + (void)load{
-    
     Method imp = class_getInstanceMethod([self class], @selector(initWithCoder:));
     Method myImp = class_getInstanceMethod([self class], @selector(fontInitWithCoder:));
     method_exchangeImplementations(imp, myImp);
@@ -22,21 +21,33 @@
     
     [self fontInitWithCoder:aDecode];
     if (self) {
-        
         if (self.tag != CDFontTag) {
 
 //            NSLog(@"打印字体： text：%@ fontName: %@", self.text, self.font.fontName);
-
+            
+            NSArray *nameArray = @[@"PingFangSC-Semibold",
+                                   @".SFUIDisplay-Bold",
+                                   @".SFUIDisplay-Semibold",
+                                   @".SFUIText-Semibold",
+                                   @".SFUIText-Bold"];
+            
             CGFloat fontSize = self.font.pointSize;
-            if ([self.font.fontName isEqualToString:@"PingFangSC-Semibold"] ||
-                [self.font.fontName isEqualToString:@".SFUIDisplay-Bold"]) {
+            
+            if ([nameArray containsObject:self.font.fontName]) {
                 
                 self.font = CDUIFontBoldMake(fontSize);
-            } else {
+            } else if ([self.font.fontName isEqualToString:@".SFUIDisplay-Medium"] ||
+                       [self.font.fontName isEqualToString:@".SFUIText-Medium"]) {
                 
+                self.font = CDUIFontMediumMake(fontSize);
+                
+            } else {
                 self.font = CDUIFontMake(fontSize);
             }
+
+            
         }
+
     }
     return self;
 }

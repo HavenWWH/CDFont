@@ -22,6 +22,35 @@
 
 @implementation CDDeviceUtils
 
+
+static NSInteger isIPad = -1;
++ (BOOL)isIPad {
+    if (isIPad < 0) {
+        // [[[UIDevice currentDevice] model] isEqualToString:@"iPad"] 无法判断模拟器 iPad，所以改为以下方式
+        isIPad = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad ? 1 : 0;
+    }
+    return isIPad > 0;
+}
+
+static NSInteger isIPod = -1;
++ (BOOL)isIPod {
+    if (isIPod < 0) {
+        NSString *string = [[UIDevice currentDevice] model];
+        isIPod = [string rangeOfString:@"iPod touch"].location != NSNotFound ? 1 : 0;
+    }
+    return isIPod > 0;
+}
+
+static NSInteger isIPhone = -1;
++ (BOOL)isIPhone {
+    if (isIPhone < 0) {
+        NSString *string = [[UIDevice currentDevice] model];
+        isIPhone = [string rangeOfString:@"iPhone"].location != NSNotFound ? 1 : 0;
+    }
+    return isIPhone > 0;
+}
+
+
 static NSInteger is35InchScreen = -1;
 + (BOOL)is35InchScreen {
     if (is35InchScreen < 0) {

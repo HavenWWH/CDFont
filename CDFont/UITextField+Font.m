@@ -27,13 +27,28 @@
         if (self.tag != CDFontTag) {
             
             //            NSLog(@"打印字体： familyName：%@ fontName: %@", self.font.familyName, self.font.fontName);
+
+            NSArray *nameArray = @[@"PingFangSC-Semibold",
+                                   @".SFUIDisplay-Bold",
+                                   @".SFUIDisplay-Semibold",
+                                   @".SFUIText-Semibold",
+                                   @".SFUIText-Bold"];
+            
             CGFloat fontSize = self.font.pointSize;
-            if ([self.font.fontName isEqualToString:@"PingFangSC-Semibold"]) {
+            
+            if ([nameArray containsObject:self.font.fontName]) {
                 
                 self.font = CDUIFontBoldMake(fontSize);
+            } else if ([self.font.fontName isEqualToString:@".SFUIDisplay-Medium"] ||
+                       [self.font.fontName isEqualToString:@".SFUIText-Medium"]) {
+                
+                self.font = CDUIFontMediumMake(fontSize);
+                
             } else {
                 self.font = CDUIFontMake(fontSize);
             }
+
+            
         }
     }
     return self;

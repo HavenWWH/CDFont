@@ -29,26 +29,102 @@
 FOUNDATION_EXPORT NSUInteger const CDFontTag;
 
 /**
- *  正常系统字体
+ *  系统正常字体
  */
-FOUNDATION_EXTERN UIFont * CDNormalSystemFont(CGFloat inch_3_5,
-                                              CGFloat inch_4_0,
-                                              CGFloat inch_4_7,
-                                              CGFloat inch_5_5,
-                                              CGFloat inch_5_8,
-                                              CGFloat inch_6_1,
-                                              CGFloat inch_6_5);
+FOUNDATION_EXTERN UIFont * CDSystemRegularFont(CGFloat inch_3_5,
+                             CGFloat inch_4_0,
+                             CGFloat inch_4_7,
+                             CGFloat inch_5_5,
+                             CGFloat inch_5_8,
+                             CGFloat inch_6_1,
+                             CGFloat inch_6_5);
 
 /**
- *  粗体
+ *  系统最粗体字体
  */
-FOUNDATION_EXTERN UIFont * CDBoldSystemFont(CGFloat inch_3_5,
-                                            CGFloat inch_4_0,
-                                            CGFloat inch_4_7,
-                                            CGFloat inch_5_5,
-                                            CGFloat inch_5_8,
-                                            CGFloat inch_6_1,
-                                            CGFloat inch_6_5);
+FOUNDATION_EXTERN UIFont * CDSystemBoldFont(CGFloat inch_3_5,
+                          CGFloat inch_4_0,
+                          CGFloat inch_4_7,
+                          CGFloat inch_5_5,
+                          CGFloat inch_5_8,
+                          CGFloat inch_6_1,
+                          CGFloat inch_6_5);
 
-#define CDUIFontMake(font)           CDNormalSystemFont((font - 1), (font - 1), font, (font + 1), font, font, (font + 1))
-#define CDUIFontBoldMake(font)       CDBoldSystemFont((font - 1), (font - 1), font, (font + 1), font, font, (font + 1))
+/**
+ *  系统中粗体字体
+ */
+FOUNDATION_EXTERN UIFont * CDSystemMediumFont(CGFloat inch_3_5,
+                            CGFloat inch_4_0,
+                            CGFloat inch_4_7,
+                            CGFloat inch_5_5,
+                            CGFloat inch_5_8,
+                            CGFloat inch_6_1,
+                            CGFloat inch_6_5);
+/**
+ * 使用包内含有，并知道名字的字体
+ */
+FOUNDATION_EXTERN UIFont * CDFontsProvidedByApplication(NSString *fontName,
+                                      CGFloat inch_3_5,
+                                      CGFloat inch_4_0,
+                                      CGFloat inch_4_7,
+                                      CGFloat inch_5_5,
+                                      CGFloat inch_5_8,
+                                      CGFloat inch_6_1,
+                                      CGFloat inch_6_5);
+
+/**
+ *  下载字体
+ */
+FOUNDATION_EXTERN UIFont * CDCustomFontFilePath(NSString *filePath,
+                                                CGFloat inch_3_5,
+                                                CGFloat inch_4_0,
+                                                CGFloat inch_4_7,
+                                                CGFloat inch_5_5,
+                                                CGFloat inch_5_8,
+                                                CGFloat inch_6_1,
+                                                CGFloat inch_6_5);
+
+// 知道字体名字
+static inline UIFont * CDFontsProvidedMake(NSString *fontName, CGFloat font) {
+    
+    return CDFontsProvidedByApplication(fontName, (font - 2), (font - 2), font, (font + 1), font, font, (font + 1));
+}
+
+
+//#define CDFontsProvidedMake(fontName, font)       CDFontsProvidedByApplication(fontName, (font - 2), (font - 2), font, (font + 1), font, font, (font + 1))
+
+// 本地字体路径 大小
+
+static inline UIFont * CDUIFilePathFontMake(NSString *filePath, CGFloat font) {
+    
+    return CDCustomFontFilePath(filePath, (font - 2), (font - 2), font, (font + 1), font, font, (font + 1));
+}
+
+//#define CDUIFilePathFontMake(filePath, font)    CDCustomFontFilePath(filePath, (font - 2), (font - 2), font, (font + 1), font, font, (font + 1))
+
+
+
+//App的主字体 平方体
+static inline UIFont * CDUIFontMake(CGFloat font) {
+    
+    return CDSystemRegularFont((font - 2), (font - 2), font, (font + 1), font, font, (font + 1));
+}
+
+//#define CDUIFontMake(font)                      CDSystemRegularFont((font - 2), (font - 2), font, (font + 1), font, font, (font + 1))
+
+static inline UIFont * CDUIFontBoldMake(CGFloat font) {
+    
+    return CDSystemBoldFont((font - 2), (font - 2), font, (font + 1), font, font, (font + 1));
+}
+
+//#define CDUIFontBoldMake(font)                  CDSystemBoldFont((font - 2), (font - 2), font, (font + 1), font, font, (font + 1))
+
+
+static inline UIFont * CDUIFontMediumMake(CGFloat font) {
+    
+    return CDSystemMediumFont((font - 2), (font - 2), font, (font + 1), font, font, (font + 1));
+}
+
+//#define CDUIFontMediumMake(font)                  CDSystemMediumFont((font - 2), (font - 2), font, (font + 1), font, font, (font + 1))
+
+
